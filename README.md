@@ -39,7 +39,7 @@
 		
 	3. Update a user
 		- PUT /user
-		- request sample : {"id":1,"username":"amdocs_admin","password":"amdocs123","status":"Activated"}
+		- request sample : {"id":1,"username":"amdocs_admin","password":"amdocs123","status":"Deactivated"}
 		- request headers :
 				a. Authorization Basic YWRtaW46cGFzc3dvcmQ=
 				b. Content-Type application/json 
