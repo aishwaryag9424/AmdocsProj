@@ -28,6 +28,7 @@
 				a. Authorization Basic YWRtaW46cGFzc3dvcmQ=
 				b. Content-Type application/json 
 		- response : user id created
+		- user with roles accessible : ADMIN
 		
 	2. Get user
 		- GET  /user?id={userId}
@@ -36,7 +37,7 @@
 				a. Authorization Basic YWRtaW46cGFzc3dvcmQ=
 				b. Accept application/json
 		- response : user object
-		
+		- user with roles accessible : USER and ADMIN
 	3. Update a user
 		- PUT /user
 		- request sample : {"id":1,"username":"amdocs_admin","password":"amdocs123","status":"Deactivated"}
@@ -44,6 +45,7 @@
 				a. Authorization Basic YWRtaW46cGFzc3dvcmQ=
 				b. Content-Type application/json 
 		- response : user id updated
+		- user with roles accessible : ADMIN
 		
 	4. Delete a user
 		- DELETE /user?id={userId}
@@ -51,3 +53,4 @@
 		- request headers :
 				a. Authorization Basic YWRtaW46cGFzc3dvcmQ=
 		- response : void
+		- user with roles accessible : ADMIN
