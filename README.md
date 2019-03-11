@@ -38,6 +38,7 @@
 				b. Accept application/json
 		- response : user object
 		- user with roles accessible : USER and ADMIN
+		
 	3. Update a user
 		- PUT /user
 		- request sample : {"id":1,"username":"amdocs_admin","password":"amdocs123","status":"Deactivated"}
