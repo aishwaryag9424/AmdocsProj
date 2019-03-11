@@ -21,7 +21,7 @@
 	
 ## Apis list :
 
-	1. Create user
+	1. Create a user
 		- POST /user
 		- request sample : {"username":"amdocs_admin","password":"amdocs123","status":"Activated"}
 		- request headers :
@@ -30,7 +30,7 @@
 		- response : user id created
 		- user with roles accessible : ADMIN
 		
-	2. Get user
+	2. Get a user
 		- GET  /user?id={userId}
 		- request : id as request param of user to get
 		- request headers :
