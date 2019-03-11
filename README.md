@@ -8,7 +8,7 @@
 
 	mvn spring-boot:run  
 	
-## Run all the unit test classes.
+## Run all the unit test classes
 	mvn test
 
 	
