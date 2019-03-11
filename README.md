@@ -31,7 +31,7 @@
 		
 	2. Get user
 		- GET  /user?id={userId}
-		- request : id request param of user to get
+		- request : id as request param of user to get
 		- request headers :
 				a. Authorization Basic YWRtaW46cGFzc3dvcmQ=
 				b. Accept application/json
@@ -47,7 +47,7 @@
 		
 	4. Delete a user
 		- DELETE /user?id={userId}
-		- request : id request param of user to delete
+		- request : id as request param of user to delete
 		- request headers :
 				a. Authorization Basic YWRtaW46cGFzc3dvcmQ=
 		- response : void
