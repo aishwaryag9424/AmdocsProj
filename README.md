@@ -4,11 +4,11 @@
 
 	mvn clean install
 	
-## run spring boot project with
+## run spring boot project with:
 
 	mvn spring-boot:run  
 	
-## Run all the unit test classes
+## Run all the unit test classes:
 	mvn test
 
 	
@@ -16,7 +16,7 @@
 	1. admin/password (ADMIN roles)
 	2. user/password  (User roles)
 	
-## default url port
+## default url port :
 	http://localhost:9000
 	
 ## Apis list :
