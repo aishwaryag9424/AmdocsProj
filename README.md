@@ -55,3 +55,11 @@
 				a. Authorization Basic YWRtaW46cGFzc3dvcmQ=
 		- response : void
 		- user with roles accessible : ADMIN
+
+## h2 db details
+	- url :  http://localhost:9000/h2-console
+	- username : sa
+	- password : 
+	- database name : test
+
+	
