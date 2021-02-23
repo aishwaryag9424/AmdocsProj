@@ -1,4 +1,4 @@
-# CRED operations
+# AmdocsProj
 
 ## build project with command:
 
